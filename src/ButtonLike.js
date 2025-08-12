@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-function BtnLikes() {
-    const [likes, setLikes] = useState(0);
+function BtnLikes({initLikes}) {
+    const [likes, setLikes] = useState(initLikes);
 
     return (
         <>
