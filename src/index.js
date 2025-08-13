@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import BtnLikes from './ButtonLike';
 import reportWebVitals from './reportWebVitals';
+import ToggleText from './ToggleText';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BtnLikes initLikes={0}/>
+    <ToggleText text="lorem ipsum dolor amet lorem ipsum dolor amet"/>
+    {/* <BtnLikes initLikes={0}/> */}
     {/* <App /> */}
   </React.StrictMode>
 );
